@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio website</title>
+    <link rel="shortcut icon" href="./Image/fav.png" type="image/x-icon" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- -->
+    <!-- header section start -->
+    <div class="container-fluids header-bg">
+      <div class="container">
+        <header>
+          <a href="#" class="logo">
+            <img src="./Image/protfolio-logo.png" alt="" />
+          </a>
+          <div class="navbar-toggle">
+            <i class="fas fa-bars" onclick="myFunction(this)"></i>
+          </div>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <!-- header end -->
+
+    <div id="home" >
+      <div class="bio">
+        <h2 class="heading">
+          Hi, I am Shamim. <br />
+          I am <br />
+          <span class="element"></span>
+        </h2>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="container-fluid about-me" id="about">
+      <div class="container">
+       
+          <div class="flex-container">
+            <div class="about-photo">
+              <img src="./Image/am.png" alt="" />
+            </div>
+            <div class="about">
+              <h2>I am professional web developer.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequatur officiis eveniet ex unde at nobis inventore corrupti
+                tempore ipsum. Dolore voluptatum harum eaque est vitae odit
+                repellendus omnis itaque sint. Magnam rerum sapiente pariatur
+                iure similique amet assumenda. A, aut corporis earum
+                perspiciatis quos, repellendus excepturi quasi error dolorem
+                harum nulla assumenda nisi fugit quisquam illum perferendis
+                ratione optio quod!
+              </p>
+              <a href="#" class="btn-about">Contact Me</a>
+            </div>
+  
+      </div>
+    </div>
+
+    <div class="container" id="service">
+      <h2 class="title">Service section</h2>
+      <div class="card-container">
+        <div class="single-card">
+          <h2>Fronend Develpment</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <a href="#">Contact</a>
+        </div>
+        <div class="single-card">
+          <h2>Backend Develpment</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <a href="#">Contact</a>
+        </div>
+        <div class="single-card">
+          <h2>Full Stack Develpment</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <a href="#">Contact</a>
+        </div>
+        <div class="single-card">
+          <h2>Graphics Design</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <a href="#">Contact</a>
+        </div>
+        <div class="single-card">
+          <h2>Mern Stack Development</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley
+          </p>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <!-- skill section start -->
+
+    <section id="skills">
+      <div class="container">
+        <div class="progress">
+          <h2>my skills</h2>
+
+          <p>html5</p>
+          <div class="skill">
+            <div class="skills html">90%</div>
+          </div>
+
+          <p>css3</p>
+          <div class="skill">
+            <div class="skills css">85%</div>
+          </div>
+
+          <p>javascript(es6)</p>
+          <div class="skill">
+            <div class="skills js">70%</div>
+          </div>
+
+          <p>bootstrap</p>
+          <div class="skill">
+            <div class="skills bootstrap">88%</div>
+          </div>
+
+          <p>react js</p>
+          <div class="skill">
+            <div class="skills react">65%</div>
+          </div>
+
+          <p>node js</p>
+          <div class="skill">
+            <div class="skills node">58%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section start -->
+
+    <section class="container-fluid contact" id="contact">
+      <div class="container" >
+        <h2>Contact Me</h2>
+        <p>
+          Do you want me to photograph you? Fill out the form and fill me in
+          with the details :) I love meeting new people!
+        </p>
+        <label for="">Name:</label>
+        <input type="text" placeholder="Name" />
+        <br />
+
+        <label for="">Email:</label>
+        <input type="email" placeholder="Email" />
+        <br />
+
+        <label for="">Password:</label>
+        <input type="password" />
+        <br />
+        <label for="">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Writing something.."
+          style="height: 170px"
+        ></textarea>
+        <br />
+        <input type="submit" value="submit" />
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &copy;</p>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-behance-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </footer>
+
+    <!-- to top button -->
+    <div class="container-fluid">
+      <a href="#" class="totop">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <!-- Type js cdn link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

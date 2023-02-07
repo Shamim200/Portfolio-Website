@@ -1,0 +1,74 @@
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.container{
+		width: 970px;
+	}
+}
+
+@media screen and (min-width: 768) and (max-width: 991px){
+	.container{
+		width: 750px;
+	}
+}
+
+
+
+@media screen and (max-width: 600px) {
+	
+    header{
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .navbar ul{
+        flex-direction: column;
+        display: block;
+        
+    }
+    .show{
+        height: 13rem !important;
+    }
+    .navbar{
+        height: 0;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+    .navbar ul li{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .navbar ul li a:hover{
+        background: red;
+		border: none;
+    }
+    .navbar-toggle{
+        display: block;
+        position: absolute;
+        top: 20px;
+        cursor: pointer;
+        font-size: 31px;
+        right: 20px;
+    }
+	
+	.bio{
+		height: 107vh;
+	}
+   
+   
+   
+    .about-photo img{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .about{
+        flex-basis: 100%;
+    }
+	
+	.single-card{
+		flex-basis: 100%;
+	}
+}
